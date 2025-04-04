@@ -1,0 +1,58 @@
+[
+    {
+      "model": "scholarships.scholarship",
+      "pk": 1,
+      "fields": {
+        "name": "Arizona Innovation Scholarship",
+        "description": "Awarded to students who demonstrate exceptional creativity and innovation in their field of study. This scholarship supports innovative research projects and creative endeavors that push the boundaries of technology and design.",
+        "amount": "5000.00",
+        "deadline": "2025-05-15",
+        "is_active": true,
+        "donor_id": 1,
+        "required_gpa": "3.50",
+        "required_major": "Engineering"
+      }
+    },
+    {
+      "model": "scholarships.scholarship",
+      "pk": 2,
+      "fields": {
+        "name": "Wildcat Excellence Scholarship",
+        "description": "Recognizing academic excellence, this scholarship is awarded to high-achieving students in the College of Engineering. Recipients demonstrate strong leadership, academic performance, and a commitment to advancing their field.",
+        "amount": "7000.00",
+        "deadline": "2025-06-01",
+        "is_active": true,
+        "donor_id": 2,
+        "required_gpa": "3.75",
+        "required_major": "Computer Science"
+      }
+    },
+    {
+      "model": "scholarships.scholarship",
+      "pk": 3,
+      "fields": {
+        "name": "Sustainability Leadership Scholarship",
+        "description": "This scholarship supports students committed to environmental sustainability and green innovation. Applicants should present a clear vision for impacting environmental practices in their community.",
+        "amount": "4000.00",
+        "deadline": "2025-07-01",
+        "is_active": true,
+        "donor_id": 3,
+        "required_gpa": "3.40",
+        "required_major": "Environmental Science"
+      }
+    },
+    {
+      "model": "scholarships.scholarship",
+      "pk": 4,
+      "fields": {
+        "name": "Global Impact Scholarship",
+        "description": "Designed for students with a passion for global change, this scholarship rewards those who plan to make a significant impact on international development and policy.",
+        "amount": "6000.00",
+        "deadline": "2025-08-15",
+        "is_active": true,
+        "donor_id": 4,
+        "required_gpa": "3.60",
+        "required_major": "International Relations"
+      }
+    }
+  ]
